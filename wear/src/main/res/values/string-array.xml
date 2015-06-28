@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notifications">
+        <item>@string/notification_basic</item>
+        <item>@string/notification_multipage</item>
+        <item>@string/notification_action</item>
+        <item>@string/notification_custom_size</item>
+        <item>@string/notification_custom_screen</item>
+    </string-array>
+</resources>
