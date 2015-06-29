@@ -5,7 +5,8 @@
 
     <string name="notification_basic">Basic</string>
     <string name="notification_multipage">Multipage</string>
+    <string name="notification_stacks">Stacked</string>
     <string name="notification_action">Action</string>
-    <string name="notification_custom_size">Custom Size</string>
+    <string name="notification_reply">Reply</string>
     <string name="notification_custom_screen">Custom Screen</string>
 </resources>

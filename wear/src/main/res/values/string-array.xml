@@ -3,8 +3,17 @@
     <string-array name="notifications">
         <item>@string/notification_basic</item>
         <item>@string/notification_multipage</item>
+        <item>@string/notification_stacks</item>
         <item>@string/notification_action</item>
-        <item>@string/notification_custom_size</item>
+        <item>@string/notification_reply</item>
         <item>@string/notification_custom_screen</item>
+    </string-array>
+
+    <string-array name="quick_reply">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
     </string-array>
 </resources>

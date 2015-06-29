@@ -7,14 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
+import android.support.v4.app.RemoteInput;
 import android.support.wearable.activity.ConfirmationActivity;
-import android.support.wearable.view.WatchViewStub;
 import android.support.wearable.view.WearableListView;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,13 +28,27 @@ public class MainActivity extends Activity implements WearableListView.ClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        NotificationManagerCompat.from( this ).cancelAll();
+
         mListView = (WearableListView) findViewById( R.id.list );
 
         WearableListAdapter adapter = new WearableListAdapter();
-        String[] notifications = getResources().getStringArray( R.array.notifications );
-        adapter.setItems( new ArrayList( Arrays.asList(notifications) ) );
+        String[] notifications = getResources().getStringArray(R.array.notifications);
+        adapter.setItems(new ArrayList(Arrays.asList(notifications)));
         mListView.setAdapter(adapter);
-        mListView.setClickListener( this );
+        mListView.setClickListener(this);
+        getMessageText(getIntent());
+    }
+
+    private void getMessageText(Intent intent) {
+        if( intent == null )
+            return;
+
+        Bundle remoteInput = RemoteInput.getResultsFromIntent(intent);
+        if (remoteInput != null) {
+            Toast.makeText( this, remoteInput.getCharSequence("reply").toString(), Toast.LENGTH_SHORT ).show();
+        }
     }
 
     @Override
@@ -48,8 +60,14 @@ public class MainActivity extends Activity implements WearableListView.ClickList
             showBasicNotification();
         } else if( item.equalsIgnoreCase( getString( R.string.notification_multipage ) ) ) {
             showMultiPagedNotification();
+        } else if( item.equalsIgnoreCase( getString( R.string.notification_stacks ) ) ) {
+           showStackedNotification();
         } else if( item.equalsIgnoreCase( getString( R.string.notification_action ) ) ) {
             showActionNotification();
+        } else if( item.equalsIgnoreCase( getString( R.string.notification_reply ) ) ) {
+            showReplyNotification();
+        }  else if( item.equalsIgnoreCase( getString( R.string.notification_custom_screen ) ) ) {
+            showCustomNotification();
         }
 
         finish();
@@ -71,17 +89,54 @@ public class MainActivity extends Activity implements WearableListView.ClickList
                 .from(this)
                 .notify(1, builder
                         .extend(new NotificationCompat.WearableExtender()
-                                .addPage( notificationPage )
-                                .addPage(notificationPage )
-                                .addPage( notificationPage )
-                                .addPage(notificationPage ) )
+                                .addPage(notificationPage)
+                                .addPage(notificationPage)
+                                .addPage(notificationPage)
+                                .addPage(notificationPage))
                         .build());
+    }
+
+    private void showStackedNotification() {
+        NotificationCompat.Builder builder = getBaseNotificationBuilder();
+        builder.setGroup("key");
+
+        Notification notification = builder.build();
+
+        NotificationManagerCompat
+                .from(this)
+                .notify(1, notification);
+
+        builder = getBaseNotificationBuilder();
+        builder.setGroup( "key" );
+        notification = builder.build();
+
+        NotificationManagerCompat.from(this).notify(2, notification);
+
+        builder = getBaseNotificationBuilder();
+        builder.setGroup( "key" );
+        notification = builder.build();
+
+        NotificationManagerCompat.from( this ).notify( 3, notification );
+
+        //Only displayed on phones
+        builder = getBaseNotificationBuilder()
+                .setGroup("key")
+                .setGroupSummary( true )
+                .setStyle( new NotificationCompat.InboxStyle()
+                    .setBigContentTitle( "Summary title" )
+                    .setSummaryText("Summary text" )
+                    .addLine( "Line 1" )
+                    .addLine( "Line 2" ) );
+
+        notification = builder.build();
+
+        NotificationManagerCompat.from( this ).notify( 4, notification );
     }
 
     private void showActionNotification() {
         NotificationCompat.Builder builder = getBaseNotificationBuilder();
-        Intent intent = new Intent( this, ConfirmationActivity.class );
 
+        Intent intent = new Intent( this, ConfirmationActivity.class );
         intent.putExtra(
                 ConfirmationActivity.EXTRA_ANIMATION_TYPE,
                 ConfirmationActivity.SUCCESS_ANIMATION );
@@ -98,8 +153,70 @@ public class MainActivity extends Activity implements WearableListView.ClickList
         builder.addAction( new NotificationCompat.Action( R.mipmap.ic_launcher, "Action Title", pendingIntent ) );
 
         NotificationManagerCompat
+                .from( this )
+                .notify( 1, builder.build() );
+    }
+
+    private void showCustomNotification() {
+        NotificationCompat.Builder builder = getBaseNotificationBuilder();
+
+        builder.extend(new NotificationCompat.WearableExtender()
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_XSMALL))
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_SMALL))
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_MEDIUM))
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_LARGE))
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_FULL_SCREEN))
+                .addPage(getCustomSizeNotificationPage(Notification.WearableExtender.SIZE_DEFAULT)));
+
+        NotificationManagerCompat
                 .from(this)
+                .notify( 1, builder.build() );
+    }
+
+    private void showReplyNotification() {
+        NotificationCompat.Builder builder = getBaseNotificationBuilder();
+
+        String[] replies = getResources().getStringArray( R.array.quick_reply );
+
+        RemoteInput remoteInput = new RemoteInput.Builder( "reply" )
+                .setLabel( "Label" )
+                .setChoices( replies )
+                .build();
+
+        Intent replyIntent = new Intent(this, MainActivity.class);
+        PendingIntent replyPendingIntent =
+                PendingIntent.getActivity(this, 0, replyIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT);
+
+        builder.extend( new NotificationCompat.WearableExtender().addAction( new NotificationCompat.Action.Builder(
+                R.mipmap.ic_launcher,
+                "Reply",
+                replyPendingIntent )
+                .addRemoteInput(remoteInput).build() ) );
+
+        NotificationManagerCompat
+                .from( this )
                 .notify(1, builder.build());
+
+    }
+
+    private Notification getCustomSizeNotificationPage( int size ) {
+
+        Intent intent = new Intent( this, CustomNotificationActivity.class );
+
+        PendingIntent pendingIntent = PendingIntent.getActivity(
+                this,
+                0,
+                intent,
+                PendingIntent.FLAG_UPDATE_CURRENT );
+
+        NotificationCompat.Builder builder = getBaseNotificationBuilder();
+
+        builder.extend(new NotificationCompat.WearableExtender()
+                .setDisplayIntent( pendingIntent )
+                .setCustomSizePreset(size));
+
+        return builder.build();
     }
 
     private NotificationCompat.Builder getBaseNotificationBuilder() {
