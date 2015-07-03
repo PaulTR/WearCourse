@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="notifications">
+        <item>@string/ui_delayed_confirmation</item>
+        <item>@string/grid_view_pager</item>
+        <item>@string/wearable_dialog_activity</item>
         <item>@string/notification_basic</item>
         <item>@string/notification_multipage</item>
         <item>@string/notification_stacks</item>

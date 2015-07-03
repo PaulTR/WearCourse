@@ -3,6 +3,10 @@
     <string name="hello_round">Hello Round World!</string>
     <string name="hello_square">Hello Square World!</string>
 
+    <string name="ui_delayed_confirmation">Delayed Confirmation</string>
+    <string name="grid_view_pager">GridView Pager</string>
+    <string name="wearable_dialog_activity">Wearable Dialog</string>
+
     <string name="notification_basic">Basic</string>
     <string name="notification_multipage">Multipage</string>
     <string name="notification_stacks">Stacked</string>
