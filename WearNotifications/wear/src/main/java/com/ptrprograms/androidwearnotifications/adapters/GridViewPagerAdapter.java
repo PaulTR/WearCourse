@@ -6,10 +6,9 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.wearable.view.CardFragment;
 import android.support.wearable.view.FragmentGridPagerAdapter;
-import android.support.wearable.view.GridPagerAdapter;
-import android.support.wearable.view.GridViewPager;
 
 import com.ptrprograms.androidwearnotifications.R;
+import com.ptrprograms.androidwearnotifications.fragments.CustomFragment;
 import com.ptrprograms.androidwearnotifications.models.Row;
 
 import java.util.ArrayList;
@@ -27,8 +26,7 @@ public class GridViewPagerAdapter extends FragmentGridPagerAdapter {
         row.addBackground( context.getDrawable( R.drawable.bg1 ) );
         mRows.add(row);
 
-        row = new Row( CardFragment.create( "Row 2", "Page 1" ) );
-        row.addBackground(context.getDrawable(R.drawable.bg2));
+        row = new Row( new CustomFragment() );
         mRows.add(row);
 
         row = new Row( CardFragment.create( "Row 3", "Page 1" ), CardFragment.create( "Row 3", "Page 2" ), CardFragment.create( "Row 3", "Page 1" ) );
@@ -65,7 +63,7 @@ public class GridViewPagerAdapter extends FragmentGridPagerAdapter {
     @Override
     public Drawable getBackgroundForRow(int row) {
         if( mRows.get( row ).getBackgrounds() == null || mRows.get( row ).getBackgrounds().isEmpty() )
-            return GridPagerAdapter.BACKGROUND_NONE;
+            return super.getBackgroundForRow(row);
 
         return mRows.get( row ).getBackground( 0 );
     }
@@ -73,7 +71,7 @@ public class GridViewPagerAdapter extends FragmentGridPagerAdapter {
     @Override
     public Drawable getBackgroundForPage(int row, int column) {
         if( mRows.get( row ).getBackgrounds() == null || column > mRows.get( row ).getBackgrounds().size() - 1 )
-            return GridPagerAdapter.BACKGROUND_NONE;
+            return super.getBackgroundForPage( row, column );
 
         return mRows.get( row ).getBackground( column );
     }

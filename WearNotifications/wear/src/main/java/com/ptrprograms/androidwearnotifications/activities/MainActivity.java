@@ -11,7 +11,6 @@ import android.support.wearable.activity.ConfirmationActivity;
 import android.support.wearable.activity.WearableActivity;
 import android.support.wearable.view.BoxInsetLayout;
 import android.support.wearable.view.WearableListView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -94,7 +93,8 @@ public class MainActivity extends WearableActivity implements WearableListView.C
     }
 
     private void showDelayedConfirmationActivity() {
-
+        Intent intent = new Intent( this, DelayedConfirmationActivity.class );
+        startActivity( intent );
     }
 
     private void showGridViewPagerActivity() {
@@ -110,7 +110,6 @@ public class MainActivity extends WearableActivity implements WearableListView.C
     @Override
     public void onEnterAmbient(Bundle ambientDetails) {
         super.onEnterAmbient(ambientDetails);
-        Log.e("Wear", "onEnterAmbient Mode");
         isAmbientMode = true;
         mListView.setBackgroundColor(getResources().getColor(android.R.color.black));
         mBoxInsetLayout.setBackgroundColor(getResources().getColor(android.R.color.black));
@@ -120,7 +119,6 @@ public class MainActivity extends WearableActivity implements WearableListView.C
     @Override
     public void onExitAmbient() {
         super.onExitAmbient();
-        Log.e("Wear", "onExitAmbient Mode");
         isAmbientMode = false;
         mListView.setBackgroundColor(getResources().getColor(android.R.color.white));
         mBoxInsetLayout.setBackgroundColor( getResources().getColor( android.R.color.white ) );
@@ -130,7 +128,6 @@ public class MainActivity extends WearableActivity implements WearableListView.C
     @Override
     public void onUpdateAmbient() {
         super.onUpdateAmbient();
-        Log.e( "Wear", "onUpdateAmbient" );
     }
 
     private void showBasicNotification() {

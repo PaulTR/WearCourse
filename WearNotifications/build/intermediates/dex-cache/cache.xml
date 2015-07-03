@@ -2,88 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-c715564f87bcb9d86676d10283a99cc1a59e1d64.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-6dbfc43074f6bdab6831dfa102d47d529aaa21d0.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-d8c62f56b1391577feded7346221eb1f6dcf42ff.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a81f11bda0f8718c1b5a914452d71cf611528bb7.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-c9222f140903a216384e5ec741a293f3871b6772.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fed329652f45b0eb7a122514f9a7b46ece2635e3.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-6f6a08803abf8f7db76503529373abbb51f47f06.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-0e96fa098c30327649a4a473b3259255eec87dc4.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-b75bb955d24ddbf98a8ade150f95680431aef653.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-e9a7526095c0839bcc9557850426a0ff6d1c92c7.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-3d5f5062bb4b7346de46f611d7becb1f054db84a.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-a9242e81db84c9dfc7147ed8aa0c9ce6aaeab04c.jar" />
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-fa930f8bada6b2c176fcd2beca23e72e3df2c9aa.jar" />
     </item>
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
@@ -93,32 +16,32 @@
         <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-fc729f426f3242e92ced0cc5f5d364527d65fdb7.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-29f15ed81de91328e235296aa19a1a4fe7d10a8d.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-d9be23a7cc0c145eeb83d6847820fc0e7e81b8fe.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-4155723f717462e3726dac62a3c64412c342c4ee.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-2d8bfc8601237f0327dc2e63abc084e06cd1594a.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-ac3ce18ac48a883c9717099237dc7ac696dc13a5.jar" />
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-3d5f5062bb4b7346de46f611d7becb1f054db84a.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-29f9c9cc929ff21cc9bbcd38c3681a9c2e42e96e.jar" />
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-28a4a8d2d4dedee258f8870bacc46f211e1ae4e7.jar" />
     </item>
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
@@ -128,46 +51,32 @@
         <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-ea84920a66a4a650d68f40e96a9c689cb1846b87.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-fa930f8bada6b2c176fcd2beca23e72e3df2c9aa.jar" />
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-aced7eecd490d511ed7b868fcb341904da358a85.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-dc31e787a99d3d05f168d54f6c8a3cc23c560c1b.jar" />
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-6dbfc43074f6bdab6831dfa102d47d529aaa21d0.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-d9be23a7cc0c145eeb83d6847820fc0e7e81b8fe.jar" />
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-3956e62e874bd45865ca7cdef9e446b916537697.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-c1ba408400948b6f9cd5acab44789fd395af49d3.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-7e8bab1de3fc6bd5b80bd3880a0f1363c29bffa3.jar" />
-    </item>
-    <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-797d98d4e921c4931ec573b101f77615edc2726a.jar" />
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-a9242e81db84c9dfc7147ed8aa0c9ce6aaeab04c.jar" />
     </item>
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
@@ -175,6 +84,13 @@
         revision="23.0.0 rc2"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0edb845789908c6d85eaca58d26c6f32f0b57d73.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-72566577baa0d73720eb1c923ada8c7983a7da4c.jar" />
     </item>
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
@@ -186,23 +102,93 @@
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
+        revision="22.0.0"
         sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
         <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-3956e62e874bd45865ca7cdef9e446b916537697.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-28a4a8d2d4dedee258f8870bacc46f211e1ae4e7.jar" />
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-c9222f140903a216384e5ec741a293f3871b6772.jar" />
     </item>
     <item
-        jar="/Users/Paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-72566577baa0d73720eb1c923ada8c7983a7da4c.jar" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a81f11bda0f8718c1b5a914452d71cf611528bb7.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-c715564f87bcb9d86676d10283a99cc1a59e1d64.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fed329652f45b0eb7a122514f9a7b46ece2635e3.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-b75bb955d24ddbf98a8ade150f95680431aef653.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-6f6a08803abf8f7db76503529373abbb51f47f06.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-7e8bab1de3fc6bd5b80bd3880a0f1363c29bffa3.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-d8c62f56b1391577feded7346221eb1f6dcf42ff.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-0e96fa098c30327649a4a473b3259255eec87dc4.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-e8306aa710cf92264368592d156b51e3b8366a54.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-29f9c9cc929ff21cc9bbcd38c3681a9c2e42e96e.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-e9a7526095c0839bcc9557850426a0ff6d1c92c7.jar" />
     </item>
     <item
         jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
@@ -212,25 +198,88 @@
         <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-789f506cd36817654f784e0f2a6d0e336b068d83.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-aced7eecd490d511ed7b868fcb341904da358a85.jar" />
+        revision="22.0.0"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-c715564f87bcb9d86676d10283a99cc1a59e1d64.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-2d8bfc8601237f0327dc2e63abc084e06cd1594a.jar" />
+        revision="22.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-dc31e787a99d3d05f168d54f6c8a3cc23c560c1b.jar" />
     </item>
     <item
-        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-e8306aa710cf92264368592d156b51e3b8366a54.jar" />
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-ac3ce18ac48a883c9717099237dc7ac696dc13a5.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-4155723f717462e3726dac62a3c64412c342c4ee.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-4155723f717462e3726dac62a3c64412c342c4ee.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-c1ba408400948b6f9cd5acab44789fd395af49d3.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-a9242e81db84c9dfc7147ed8aa0c9ce6aaeab04c.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-29f15ed81de91328e235296aa19a1a4fe7d10a8d.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a81f11bda0f8718c1b5a914452d71cf611528bb7.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/mobile/build/intermediates/pre-dexed/debug/classes-797d98d4e921c4931ec573b101f77615edc2726a.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fed329652f45b0eb7a122514f9a7b46ece2635e3.jar" />
+    </item>
+    <item
+        jar="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/Paul/Documents/AndroidTmp/WearCourse/WearNotifications/wear/build/intermediates/pre-dexed/debug/classes-dc31e787a99d3d05f168d54f6c8a3cc23c560c1b.jar" />
     </item>
 
 </items>
