@@ -314,7 +314,7 @@ public class MainActivity extends WearableActivity implements WearableListView.C
             ViewHolder holder = (ViewHolder) viewHolder;
             holder.textView.setText( mNotificationTypes.get( i ) );
             if( MainActivity.isAmbientMode ) {
-                holder.textView.setTextColor(holder.textView.getResources().getColor(android.R.color.white));
+                holder.textView.setTextColor( holder.textView.getResources().getColor(android.R.color.white));
             } else {
                 holder.textView.setTextColor( holder.textView.getResources().getColor( android.R.color.black ));
             }
@@ -327,8 +327,6 @@ public class MainActivity extends WearableActivity implements WearableListView.C
             ViewHolder viewholder = ((ViewHolder) holder);
             if( MainActivity.isAmbientMode ) {
                 viewholder.textView.setTextColor( viewholder.textView.getResources().getColor( android.R.color.white) );
-            } else {
-                viewholder.textView.setTextColor( viewholder.textView.getResources().getColor( android.R.color.black) );
             }
         }
 
